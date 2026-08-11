@@ -1,0 +1,16 @@
+{
+  "quotes": [
+    {
+      "quote": "[Add a real client quote here about how the tracker helped their business.]",
+      "who": "Client name, business type"
+    },
+    {
+      "quote": "[Add a real client quote here about ease of use or support.]",
+      "who": "Client name, business type"
+    },
+    {
+      "quote": "[Add a real client quote here about results — time saved, clarity gained.]",
+      "who": "Client name, business type"
+    }
+  ]
+}

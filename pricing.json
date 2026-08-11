@@ -1,0 +1,35 @@
+{
+  "note": "Prices shown are placeholders — replace with your actual rates before going live.",
+  "tiers": [
+    {
+      "name": "Starter",
+      "price": "K350",
+      "priceSuffix": "once-off",
+      "featured": false,
+      "badge": "",
+      "description": "For solo traders getting their numbers under control for the first time.",
+      "features": ["Small Business Tracker", "WhatsApp delivery", "Setup guide"],
+      "buttonLabel": "Get started"
+    },
+    {
+      "name": "Standard",
+      "price": "K650",
+      "priceSuffix": "once-off",
+      "featured": true,
+      "badge": "Best value",
+      "description": "For businesses managing client accounts and payments too.",
+      "features": ["Small Business Tracker", "Payment Management System", "30-min WhatsApp walkthrough"],
+      "buttonLabel": "Get started"
+    },
+    {
+      "name": "Custom",
+      "price": "Get a quote",
+      "priceSuffix": "",
+      "featured": false,
+      "badge": "",
+      "description": "For businesses with assets, multiple branches, or specific reporting needs.",
+      "features": ["Asset Register", "Tailored to your workflow", "Ongoing support"],
+      "buttonLabel": "Ask a question"
+    }
+  ]
+}

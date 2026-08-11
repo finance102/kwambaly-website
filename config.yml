@@ -1,0 +1,47 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pricing"
+    label: "Pricing"
+    files:
+      - name: "pricing"
+        label: "Pricing Tiers"
+        file: "content/pricing.json"
+        fields:
+          - { label: "Note (shown under the pricing table)", name: "note", widget: "string" }
+          - label: "Tiers"
+            name: "tiers"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}"
+            fields:
+              - { label: "Plan name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string", hint: "e.g. K350 or 'Get a quote'" }
+              - { label: "Price suffix", name: "priceSuffix", widget: "string", required: false, hint: "e.g. once-off" }
+              - { label: "Highlight this plan?", name: "featured", widget: "boolean", default: false }
+              - { label: "Badge text (only shown if highlighted)", name: "badge", widget: "string", required: false, hint: "e.g. Best value" }
+              - { label: "Description", name: "description", widget: "text" }
+              - label: "Features"
+                name: "features"
+                widget: "list"
+                field: { label: "Feature", name: "feature", widget: "string" }
+              - { label: "Button label", name: "buttonLabel", widget: "string", default: "Get started" }
+
+  - name: "testimonials"
+    label: "Testimonials"
+    files:
+      - name: "testimonials"
+        label: "Client Testimonials"
+        file: "content/testimonials.json"
+        fields:
+          - label: "Quotes"
+            name: "quotes"
+            widget: "list"
+            summary: "{{fields.who}}"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Client name / business type", name: "who", widget: "string" }
