@@ -2,33 +2,32 @@
   "note": "Prices shown are placeholders — replace with your actual rates before going live.",
   "tiers": [
     {
-      "name": "Starter",
-      "price": "K350",
+      "name": "Premium",
+      "price": "K2830",
       "priceSuffix": "once-off",
       "featured": false,
       "badge": "",
-      "description": "For solo traders getting their numbers under control for the first time.",
-      "features": ["Small Business Tracker", "WhatsApp delivery", "Setup guide"],
-      "buttonLabel": "Get started"
-    },
-    {
-      "name": "Standard",
-      "price": "K650",
-      "priceSuffix": "once-off",
-      "featured": true,
-      "badge": "Best value",
-      "description": "For businesses managing client accounts and payments too.",
-      "features": ["Small Business Tracker", "Payment Management System", "30-min WhatsApp walkthrough"],
+      "description": "The full system - daily bookkeeping, financial statements, and cost and profit Analysis in one workbook",
+      "features": [
+        "Dashboard, Sales, Expenses, Petty Cash",
+        "Fixed Assets & Statement of financial Position",
+        "Cost Classification, Service costing & Brek-Even Analysisa",
+        "Debtors, Creditors, Cash flow"
+      ],
       "buttonLabel": "Get started"
     },
     {
       "name": "Custom",
-      "price": "Get a quote",
+      "price": "From k3500+",
       "priceSuffix": "",
-      "featured": false,
-      "badge": "",
-      "description": "For businesses with assets, multiple branches, or specific reporting needs.",
-      "features": ["Asset Register", "Tailored to your workflow", "Ongoing support"],
+      "featured": true,
+      "badge": "Best value",
+      "description": "Have specific needs? I build fully custom systems tailored to your business - pick and choose exactly which sheets and feature you need.",
+      "features": [
+        "Built from scratch around your workflow",
+        "Mix and match from any tracker or sheet ",
+        "Direct consultation before pricing "
+      ],
       "buttonLabel": "Ask a question"
     }
   ]
