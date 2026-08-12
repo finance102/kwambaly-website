@@ -2,34 +2,32 @@
   "note": "Prices shown are placeholders — replace with your actual rates before going live.",
   "tiers": [
     {
-      "name": "Starter",
-      "price": "K350",
+      "name": "Premium",
+      "price": "K3000",
       "priceSuffix": "once-off",
       "featured": false,
-      "badge": "",
-      "description": "For solo traders getting their numbers under control for the first time.",
-      "features": ["Small Business Tracker", "WhatsApp delivery", "Setup guide"],
-      "buttonLabel": "Get started"
-    },
-    {
-      "name": "Standard",
-      "price": "K650",
-      "priceSuffix": "once-off",
-      "featured": true,
-      "badge": "Best value",
-      "description": "For businesses managing client accounts and payments too.",
-      "features": ["Small Business Tracker", "Payment Management System", "30-min WhatsApp walkthrough"],
+      "badge": "Best for growing business",
+      "description": "The full system- daily bookkeeping, financial statement, and cost and profit analysis in one workbook.",
+      "features": ["Daily use- Dashboard, Sale, Expenses, Petty Cash",
+       "Cost Classification, Service Costing & Break-Even Analysis",
+       "Fixed Assets & Statement of financial position",
+        "`Debtors Creditors, Cash Flow"
+        "],
       "buttonLabel": "Get started"
     },
     {
       "name": "Custom",
-      "price": "Get a quote",
+      "price": "From K3500+",
       "priceSuffix": "",
-      "featured": false,
+      "featured": true,
       "badge": "",
-      "description": "For businesses with assets, multiple branches, or specific reporting needs.",
-      "features": ["Asset Register", "Tailored to your workflow", "Ongoing support"],
-      "buttonLabel": "Ask a question"
+      "description": "Need something built entirely around your business? Custom builds start above the complete package, scoped to what you actually need.",
+      "features": [
+       "Built from scratch around your workflow",
+        "Mix and match any tracker or sheet",
+       "Website creation also available - ask question"
+      ],
+      "buttonLabel": "Ask a question"   
     }
   ]
 }
