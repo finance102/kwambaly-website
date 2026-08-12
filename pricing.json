@@ -3,7 +3,7 @@
   "tiers": [
     {
       "name": "Premium",
-      "price": "K3000",
+      "price": "K2830",
       "priceSuffix": "once-off",
       "featured": false,
       "badge": "Best for growing business",
@@ -20,12 +20,16 @@
       "price": "From K3500+",
       "priceSuffix": "",
       "featured": true,
-      "badge": "",
+      "badge": "Best value",
       "description": "Need something built entirely around your business? Custom builds start above the complete package, scoped to what you actually need.",
       "features": [
        "Built from scratch around your workflow",
         "Mix and match any tracker or sheet",
-       "Website creation also available - ask question"
+       "Direct consultation before pricing"
+      ], 
+      "bttonlabel":"Ask a question
+    }
+  ]
       ],
       "buttonLabel": "Ask a question"   
     }
